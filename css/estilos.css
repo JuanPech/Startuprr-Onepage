@@ -1,3 +1,17 @@
+/*seccion 1*/
+#header img {
+  margin: 3% 0px 3% 15%;
+  width: 40%;
+  height: auto;
+}
+#header {
+background-color: #8a8a8a;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+/*seccion 1 final*/
+/*seccion 6*/
 #seccion-6{
 }
 nav ul h1{
