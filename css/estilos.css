@@ -14,7 +14,6 @@ background-color: #8a8a8a;
 /*seccion 6*/
 #seccion-6{
 }
-
 nav ul h1{
 	padding-left: 540px;
 }
@@ -23,8 +22,6 @@ nav ul p{
 padding-left: 375px;
 color: #cdcdcd;
 }
-.tabla1 .tabla2{
+#categoria{
 	padding-right: 5px;
-	border-top: 2px;
-
 }
