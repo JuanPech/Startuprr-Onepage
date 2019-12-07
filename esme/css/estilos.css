@@ -37,6 +37,7 @@ color: #cdcdcd;
 	padding-bottom: 35px;
 	padding-left:  100px;
 	padding-right: 100px;
+	text-align: center; 
 }
 #centro{
 	justify-content: center;
@@ -132,6 +133,9 @@ justify-content: left;
 	padding-bottom: 35px;	
 justify-content: left;
 }
+table,td {
+	border: 1px solid #dedede;
+}
 #par1{
  	background-color: #f9f9f9;
 	padding-bottom:0px;
@@ -143,13 +147,13 @@ justify-content: left;
  #cajazulverde1 button{
 	background-color:#00a99d;
 	height: 45px;
-	width: 140px;
+	width: 125px;
 	border: none;
 	border-radius: 5px;
 	color: #d5e0df;
-	font-size: 15px;
+	font-size: 13px;
 	font-family: 'Poppins', sans-serif;
-
+	margin-left: 60px;
 }
  #par2{
  	background-color: #f9f9f9;
@@ -162,12 +166,13 @@ justify-content: left;
  #cajanegra button{
 	background-color:#383838;
 	height: 45px;
-	width: 140px;
+	width: 125px;
 	border: none;
 	border-radius: 5px;
 	color: #e4e4e4;
-	font-size: 15px;
+	font-size: 13px;
 	font-family: 'Poppins', sans-serif;
+	margin-left: 60px;
 }
  #par3{
  	background-color: #f9f9f9;
@@ -180,13 +185,13 @@ justify-content: left;
  #cajazulverde2 button{
 	background-color:#00a99d;
 	height: 45px;
-	width: 140px;
+	width: 125px;
 	border: none;
 	border-radius: 5px;
 	color: #d5e0df;
-	font-size: 15px;
+	font-size: 13px;
 	font-family: 'Poppins', sans-serif;
-	text-align: center;
+	margin-left: 60px;
 }
  #par4{
  	background-color: #f9f9f9;
@@ -199,34 +204,157 @@ justify-content: left;
 #cajazulverde3 button{
 	background-color:#00a99d;
 	height: 45px;
+	width: 125px;
+	border: none;
+	border-radius: 5px;
+	color: #d5e0df;
+	font-size: 13px;
+	font-family: 'Poppins', sans-serif;
+	margin-left: 60px;
+}
+#content4{
+	background-color: #f9f9f9;
+	padding-bottom: 35px;	
+justify-content: left;
+}
+#cent{
+	justify-content: center;
+}
+#secc1{
+ 	background-color: #f9f9f9;
+	padding-bottom:0px;
+	padding-left:  0px;
+	padding-right: 0px;
+	align-content: right;
+	margin-left: 20px;
+ }
+ #cajaneg button{
+	background-color:#383838;
+	height: 45px;
+	width: 130px;
+	border: none;
+	border-radius: 5px;
+	color: #e4e4e4;
+	font-size: 13px;
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+}#cajazul1 button{
+	background-color:#00a99d;
+	height: 45px;
+	width: 130px;
+	border: none;
+	border-radius: 5px;
+	color: #d5e0df;
+	font-size: 13px;
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+}
+#secc2{
+ 	background-color: #f9f9f9;
+	padding-bottom:0px;
+	padding-left:  0px;
+	padding-right: 0px;
+	align-content: right;
+	margin-left: 20px;
+ }
+ #cajaver button{
+	background-color:#00a99d;
+	height: 45px;
 	width: 140px;
 	border: none;
 	border-radius: 5px;
 	color: #d5e0df;
-	font-size: 15px;
+	font-size: 13px;
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+}#cajazul2 button{
+	background-color:#00a99d;
+	height: 45px;
+	width: 140px;
+	border: none;
+	border-radius: 5px;
+	color: #d5e0df;
+	font-size: 13px;
 	font-family: 'Poppins', sans-serif;
 	text-align: center;
 }
-
+#secc3{
+ 	background-color: #f9f9f9;
+	padding-bottom:0px;
+	padding-left:  0px;
+	padding-right: 0px;
+	align-content: right;
+	margin-left: 20px;
+ }
+ #cajaneg2 button{
+	background-color:#383838;
+	height: 45px;
+	width: 140px;
+	border: none;
+	border-radius: 5px;
+	color: #e4e4e4;
+	font-size: 13px;
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+}#cajazul3 button{
+	background-color:#00a99d;
+	height: 45px;
+	width: 140px;
+	border: none;
+	border-radius: 5px;
+	color: #d5e0df;
+	font-size: 13px;
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+}
+#secc4{
+ 	background-color: #f9f9f9;
+	padding-bottom:0px;
+	padding-left:  0px;
+	padding-right: 0px;
+	align-content: right;
+	margin-left: 20px;
+ }
+ #cajaneg3 button{
+	background-color:#383838;
+	height: 45px;
+	width: 140px;
+	border: none;
+	border-radius: 5px;
+	color: #e4e4e4;
+	font-size: 13px;
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+}#cajazul4 button{
+	background-color:#00a99d;
+	height: 45px;
+	width: 140px;
+	border: none;
+	border-radius: 5px;
+	color: #d5e0df;
+	font-size: 13px;
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+}
  p{
-	 color: #bababa;
-	 padding-right: 0px;
-	 padding-left: 10;
-	  font-size: 13px;
+	 color: #747474;
+	  font-size: 12px;
 	font-family: 'Poppins',
-	 sans-serif; 
-}
-h4{
-	text-align: center;
-	color: #606060; font-size: 12px; 
-	font-family: 'Poppins', sans-serif;
+	 sans-serif;
+	 padding: 0px 10px 0px 10px;
 }
 h3{
 	padding: 50px 0px 20px 0px;	 text-align: center;
 	color: #535353; font-size: 26px; 
 	font-family: 'Poppins', sans-serif;
 }
+h4{
+	text-align: center;
+	color: #606060; font-size: 16px; 
+	font-family: 'Poppins', sans-serif;
+}
 h5{
+	padding: 0px 0px 15px 0px;
 	color: #7b7b7b;	font-size: 16px;
 	font-family: 'Poppins', sans-serif;
 	text-align: center;
@@ -236,3 +364,8 @@ h6{
 	font-family: 'Poppins', sans-serif;
 	text-align: center;
 }
+/*... ID de esme...*/
+/*... ID de esme...*/
+/*... ID de esme...*/
+/*... ID de esme...*/
+/*... ID de esme...*/
