@@ -12,18 +12,26 @@ background-color: #8a8a8a;
 
 /*seccion 1 final*/
 /*seccion 6*/
-#seccion-6{
-}
-nav ul h1{
-	padding-left: 540px;
-}
-
-nav ul p{
-padding-left: 375px;
-color: #cdcdcd;
-}
-#categoria{
-	padding-right: 5px;
+ #sample-work{
+     float: left;
+     width: 100%;
+     padding: 3rem 0;
+     background-color: #f9f9f9;
+ }
+ .btn-green{
+     background-color: #00a99d;
+     margin: 30px 0;
+     color: #fff;
+     font-weight: bolder;
+     text-transform: uppercase;
+ }
+ #btn-green:hover{
+    background-color: transparent;
+    margin: 30px 0;
+    color: #00a99d;
+    font-weight: bolder;
+    text-transform: uppercase;
+    border:1px solid #00a99d;
 }
 
 
