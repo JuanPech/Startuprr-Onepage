@@ -50,6 +50,131 @@ header {
 }
 /*seccion 1 barra de navegacion final*/
 
+/*seccion 1 parte blanca*/
+.offer{
+    float: left;
+    width: 100%;
+    padding: 2rem 0;
+}
+.top-title{
+    font-size: 26px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+}
+.under-title{
+    color: #8a8a8a;
+    text-align: center;
+}
+.offer-round{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: #383838;
+    border-radius: 100%;
+    margin: 1.5rem auto;
+}
+
+.offer-round:hover{
+    background-color: #00a99d;
+    cursor: pointer;
+}
+.item{
+    padding: 2rem 0;
+    text-align: center;
+}
+.offer-round span{
+    color: #e4e4e4;
+    line-height: 3.2;
+}
+.item .title{
+    color: #606060;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    
+}
+.item .paragraph{
+    color: #606060;
+    font-size: 14px;    
+}
+.btn-readmore{
+    border: 1px solid #e2e2e2;
+    color: #a4a4a4;
+    font-size: 10px;
+    padding: 9px 18px;
+    text-transform: uppercase;
+}
+.btn-readmore:hover{
+    border: 1px solid #00a99d;
+    color: #fff;
+    background-color: #00a99d;
+}
+
+/*seccion 1 parte blanca final*/
+/*seccion 2 parte gris*/
+
+.feature{
+    float: left;
+    width: 100%;
+    padding: 3rem 0 0 0;
+    background-color: #383838;
+    position: relative;
+}
+.angle-90{
+    position: absolute;
+    left:50%;
+    top:-20px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    background-color: #00a99d;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 4px;
+}
+
+.offer-rounds{
+    height: 100px;
+    text-align: center;
+    background-color: #383838;
+    border-radius: 100%;
+    margin: 1.4rem auto;
+}
+.offer-rounds span{
+    color: #e4e4e4;
+    line-height: 3.2;
+}
+.item-feature{
+    padding: 2rem 0 0 0;
+}
+.item-feature .title{
+    color: #e4e4e4;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    
+}
+.item-feature .paragraph{
+    color: #7a7a7a;
+    font-size: 14px;    
+}
+.item-feature .under-title{
+    font-size: 12px;
+    color: #aaaaaa;
+}
+
+/*seccion 2 parte gris final*/
+
 /*seccion 6*/
 #seccion-6{
 }
