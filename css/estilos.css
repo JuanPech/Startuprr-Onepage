@@ -62,15 +62,6 @@ header {
     text-transform: uppercase;
     text-align: center;
     margin: 0;
-    color: #383838;
-}
-.top-title2{
-        font-size: 26px;
-    font-weight: bolder;
-    text-transform: uppercase;
-    text-align: center;
-    margin: 0;
-    color: #ffffff;
 }
 .under-title{
     color: #8a8a8a;
@@ -158,10 +149,9 @@ header {
     background-color: #383838;
     border-radius: 100%;
     margin: 1.4rem auto;
-    color: #00a99d;
 }
 .offer-rounds span{
-    color: #00a99d;
+    color: #e4e4e4;
     line-height: 3.2;
 }
 .item-feature{
@@ -182,12 +172,67 @@ header {
     font-size: 12px;
     color: #aaaaaa;
 }
-.puntosi{
-    padding-left: 93%;
-}
 
 /*seccion 2 parte gris final*/
-
+/*--Seccion 3 Inicio--*/
+.Apps{
+    float: left;
+    width: 100%;
+    padding: 3rem 0;
+}
+.left-icon{
+    float: right;
+}
+.Items{
+    text-align: left;
+}
+.Items .Titulo{
+    color: #606060;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin: 0;   
+}
+.Items .Texto{
+    color: #7a7a7a;
+    font-size: 14px;    
+}
+.Items .Sub-titulo{
+    font-size: 12px;
+    color: #aaaaaa;
+    text-align: left;
+}
+/*--Seccion 3 Final--*/
+/*--Seccion 5 Inicio--*/
+.rotate180 {
+    -webkit-transform:rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.Color1{
+    color: #00a99d;
+}
+.Color2{
+    color: #a8a8a8;
+}
+.btn-green{
+    background-color: #00a99d;
+    margin: 30px 0;
+    color: #fff;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.btn-green:hover{
+    background-color: transparent;
+    margin: 30px 0;
+    color: #00a99d;
+    font-weight: bolder;
+    text-transform: uppercase;
+    border:1px solid #00a99d;
+}
+/*--Seccion 5 Final--*/
 /*seccion 6*/
 #seccion-6{
 }
