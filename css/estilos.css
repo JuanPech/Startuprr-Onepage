@@ -62,6 +62,15 @@ header {
     text-transform: uppercase;
     text-align: center;
     margin: 0;
+    color: #383838;
+}
+.top-title2{
+        font-size: 26px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    color: #ffffff;
 }
 .under-title{
     color: #8a8a8a;
@@ -149,9 +158,10 @@ header {
     background-color: #383838;
     border-radius: 100%;
     margin: 1.4rem auto;
+    color: #00a99d;
 }
 .offer-rounds span{
-    color: #e4e4e4;
+    color: #00a99d;
     line-height: 3.2;
 }
 .item-feature{
@@ -172,8 +182,12 @@ header {
     font-size: 12px;
     color: #aaaaaa;
 }
+.puntosi{
+    padding-left: 93%;
+}
 
 /*seccion 2 parte gris final*/
+
 /*--Seccion 3 Inicio--*/
 .Apps{
     float: left;
