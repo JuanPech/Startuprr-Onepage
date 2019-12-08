@@ -9,15 +9,53 @@ background-color: #8a8a8a;
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
-
 /*seccion 1 final*/
+
+/*seccion 1 barra de navegacion*/
+header {
+    border-bottom: 1px solid #dedede;
+    float: left;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.logo {
+    float: left;
+    padding-top: 18px;
+}
+.menu {
+    float: right;
+    clear: right;
+    font-size: 14px;
+    font-family: "Raleway";
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.5;
+    padding-top: 30px;
+}
+.menu ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 12px;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: #606060;
+}
+.menu ul li a:hover {
+    width: 103px;
+    border-radius: 4px;
+    background-color: #00a99d;
+    box-sizing: border-box;
+    padding: 10px;
+}
+/*seccion 1 barra de navegacion final*/
+
 /*seccion 6*/
 #seccion-6{
 }
 nav ul h1{
 	padding-left: 540px;
 }
-
 nav ul p{
 padding-left: 375px;
 color: #cdcdcd;
