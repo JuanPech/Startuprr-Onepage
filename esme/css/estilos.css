@@ -57,6 +57,13 @@ background-color: #8a8a8a;
 
 /* seccion 9 imagenes */
 
+.clients{
+    float: left;
+    width: 100%;
+    background-color: #383838;
+    padding: 3rem 0;
+}
+
 
 /*... ID de esme...*/
 /*... ID de esme...*/
