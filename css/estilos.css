@@ -228,44 +228,7 @@ header {
 
 /*--Seccion 5 Final--*/
 /*seccion 6*/
-.img-fuid{
-    padding-right: 5px;
-}
-nav ul h1{
-	padding-left: 540px;
-}
-nav ul p{
-padding-left: 375px;
-color: #cdcdcd;
-}
 
-.team-text{
-    float: left;
-    width: 100%;
-    padding: 4rem 0;
-    background-color: #00a99d;
-    position: relative;
-}
-.tex-green{
-    color: #00a99d;
-}
-.tex-dark{
-    color: #aaaaaa;
-    font-weight: normal;
-}
-.team-text p{
-    color: #fff;
-    font-weight: bold;
-    font-size: 15px;
-    padding: 1rem 0 0 0;
-}
-
-.clientes{
-    float: left;
-    width: 100%;
-    background-color: #383838;
-    padding: 3rem 0;
-}
 /*seccion 7 esmeralda*/
 #seccion7{
     background-color: #383838;
