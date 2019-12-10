@@ -1,68 +1,4 @@
-/*seccion 1*/
-#header img {
-  margin: 3% 0px 3% 15%;
-  width: 40%;
-  height: auto;
-}
-#header {
-background-color: #8a8a8a;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-}
 
-/*seccion 1 final*/
-/*seccion 6*/
- #sample-work{
-     float: left;
-     width: 100%;
-     padding: 3rem 0;
-     background-color: #f9f9f9;
- }
- .btn-green{
-     background-color: #00a99d;
-     margin: 30px 0;
-     color: #fff;
-     font-weight: bolder;
-     text-transform: uppercase;
- }
- #btn-green:hover{
-    background-color: transparent;
-    margin: 30px 0;
-    color: #00a99d;
-    font-weight: bolder;
-    text-transform: uppercase;
-    border:1px solid #00a99d;
-}
-
-.team-text{
-    float: left;
-    width: 100%;
-    padding: 4rem 0;
-    background-color: #00a99d;
-    position: relative;
-}
-.tex-green{
-    color: #00a99d;
-}
-.tex-dark{
-    color: #aaaaaa;
-    font-weight: normal;
-}
-.team-text p{
-    color: #fff;
-    font-weight: bold;
-    font-size: 20px;
-    padding: 1rem 0 0 0;
-}
-
-/* seccion 9 imagenes */
-
-.clients{
-    float: left;
-    width: 100%;
-    background-color: #383838;
-    padding: 3rem 0;
-}
 
 
 /*... ID de esme...*/
@@ -86,6 +22,7 @@ background-color: #8a8a8a;
     padding-left: 0px;
 	padding-bottom: 20px;
 	text-align: center;
+	
 }
 #menu nav ul li a:hover{
 	color:#00aeff; font-weight: bold;
@@ -135,21 +72,41 @@ background-color: #8a8a8a;
 }
 #submenu1 nav ul li a{
 	
-	text-decoration: none; color: #606060; font-size: 15px;  padding: 0px 20px;
+	text-decoration: none; color: #606060; font-size: 15px;  padding: 0px 40px;
 	font-family: 'Poppins', sans-serif;
  }
  #submenu1 nav ul li a:hover{
-	color:#2373c2; font-weight: bold;
+	color:#00a99d; font-weight: bold;
 }
 #content2{
 	background-color: #00a99d;
 	padding-bottom: 35px;	
-justify-content: left;
 }
+#cent{
+	padding: 40px 215px 30px 0px;
+	text-align: center; 
+}	
 #cajagris button{
 	background-color:#e4e4e4;
 	height: 45px;
-	width: 255px;
+	width: 170px;
+	border: none;
+	border-radius: 5px;
+	color: #838383;
+	font-size: 15px;
+	font-family: 'Poppins', sans-serif;
+}
+#cajagris button{
+	position: relative;
+	left: 175px;
+  	top: 10px;
+  	bottom: 20px;
+  	right: 20px;
+}
+#cajagris1 button{
+	background-color:#e4e4e4;
+	height: 45px;
+	width: 170px;
 	border: none;
 	border-radius: 5px;
 	color: #838383;
@@ -157,28 +114,22 @@ justify-content: left;
 	font-family: 'Poppins', sans-serif;
 }
 #cajagris1 button{
-	background-color:#e4e4e4;
-	height: 45px;
-	width: 255px;
-	border: none;
-	border-radius: 5px;
-	color: #838383;
-	font-size: 15px;
-	font-family: 'Poppins', sans-serif;
+	position: relative;
+	left: 190px;
+  	top: 10px;
+  	bottom: 20px;
+  	right: 50px;
 }
 #content3{
 	background-color: #f9f9f9;
 	padding-bottom: 35px;	
-justify-content: left;
 }
 table,td {
-	border: 1px solid #dedede;
+	border: 1px solid black;
 }
+
 #par1{
  	background-color: #f9f9f9;
-	padding-bottom:0px;
-	padding-left:  0px;
-	padding-right: 0px;
 	align-content: right;
 	margin-left: 20px;
  }
@@ -192,6 +143,18 @@ table,td {
 	font-size: 13px;
 	font-family: 'Poppins', sans-serif;
 	margin-left: 60px;
+}
+#carta1 nav ul li a{
+	text-decoration: none; color: #aaaaaa; font-size: 12px; 
+	font-family: 'Poppins', sans-serif;
+ }
+ #carta1 nav ul li a:hover{
+	color:#00a99d; font-weight: bold;
+
+}
+#carta1 nav ul li{
+	list-style:none; display: inline-block; 
+	margin: 0px 12px 0px 0px;
 }
  #par2{
  	background-color: #f9f9f9;
@@ -212,6 +175,18 @@ table,td {
 	font-family: 'Poppins', sans-serif;
 	margin-left: 60px;
 }
+#carta2 nav ul li a{
+	text-decoration: none; color: #aaaaaa; font-size: 12px; 
+	font-family: 'Poppins', sans-serif;
+ }
+ #carta2 nav ul li a:hover{
+	color:#00a99d; font-weight: bold;
+
+}
+#carta2 nav ul li{
+	list-style:none; display: inline-block; 
+	margin: 0px 12px 0px 0px;
+}
  #par3{
  	background-color: #f9f9f9;
 	padding-bottom:0px;
@@ -230,6 +205,18 @@ table,td {
 	font-size: 13px;
 	font-family: 'Poppins', sans-serif;
 	margin-left: 60px;
+}
+#carta3 nav ul li a{
+	text-decoration: none; color: #aaaaaa; font-size: 12px; 
+	font-family: 'Poppins', sans-serif;
+ }
+ #carta3 nav ul li a:hover{
+	color:#00a99d; font-weight: bold;
+
+}
+#carta3 nav ul li{
+	list-style:none; display: inline-block; 
+	margin: 0px 12px 0px 0px;
 }
  #par4{
  	background-color: #f9f9f9;
@@ -250,36 +237,59 @@ table,td {
 	font-family: 'Poppins', sans-serif;
 	margin-left: 60px;
 }
+#carta4 nav ul li a{
+	text-decoration: none; color: #aaaaaa; font-size: 12px; 
+	font-family: 'Poppins', sans-serif;
+ }
+ #carta4 nav ul li a:hover{
+	color:#00a99d; font-weight: bold;
+
+}
+#carta4 nav ul li{
+	list-style:none; display: inline-block; 
+	margin: 0px 12px 0px 0px;
+}
+
+
 #content4{
 	background-color: #f9f9f9;
 	padding-bottom: 35px;	
-justify-content: left;
+	justify-content: center;
+}
+table,td {
+	border: 1px solid #dedede;
 }
 #cent{
 	justify-content: center;
+	padding: 0px 0px 15px 0px;
 }
 #secc1{
  	background-color: #f9f9f9;
-	padding-bottom:0px;
-	padding-left:  0px;
-	padding-right: 0px;
 	align-content: right;
 	margin-left: 20px;
  }
- #cajaneg button{
+#cajaneg button{
 	background-color:#383838;
 	height: 45px;
-	width: 130px;
+	width: 140px;
 	border: none;
 	border-radius: 5px;
 	color: #e4e4e4;
 	font-size: 13px;
 	font-family: 'Poppins', sans-serif;
 	text-align: center;
-}#cajazul1 button{
+}
+#cajaneg button{
+	position: relative;
+	left: 5px;
+  	top: 0px;
+  	bottom: 20px;
+  	right: 0px;
+}
+#cajazul1 button{
 	background-color:#00a99d;
 	height: 45px;
-	width: 130px;
+	width: 105px;
 	border: none;
 	border-radius: 5px;
 	color: #d5e0df;
@@ -289,9 +299,6 @@ justify-content: left;
 }
 #secc2{
  	background-color: #f9f9f9;
-	padding-bottom:0px;
-	padding-left:  0px;
-	padding-right: 0px;
 	align-content: right;
 	margin-left: 20px;
  }
@@ -305,10 +312,18 @@ justify-content: left;
 	font-size: 13px;
 	font-family: 'Poppins', sans-serif;
 	text-align: center;
-}#cajazul2 button{
+}
+#cajaver button{
+	position: relative;
+	left: 5px;
+  	top: 0px;
+  	bottom: 20px;
+  	right: 0px;
+}
+#cajazul2 button{
 	background-color:#00a99d;
 	height: 45px;
-	width: 140px;
+	width: 105px;
 	border: none;
 	border-radius: 5px;
 	color: #d5e0df;
@@ -333,11 +348,19 @@ justify-content: left;
 	color: #e4e4e4;
 	font-size: 13px;
 	font-family: 'Poppins', sans-serif;
-	text-align: center;
-}#cajazul3 button{
+	text-align: center;''
+}
+#cajaneg2 button{
+	position: relative;
+	left: 5px;
+  	top: 0px;
+  	bottom: 20px;
+  	right: 0px;
+}
+#cajazul3 button{
 	background-color:#00a99d;
 	height: 45px;
-	width: 140px;
+	width: 105px;
 	border: none;
 	border-radius: 5px;
 	color: #d5e0df;
@@ -356,17 +379,25 @@ justify-content: left;
  #cajaneg3 button{
 	background-color:#383838;
 	height: 45px;
-	width: 140px;
+	width: 135px;
 	border: none;
 	border-radius: 5px;
 	color: #e4e4e4;
 	font-size: 13px;
 	font-family: 'Poppins', sans-serif;
 	text-align: center;
-}#cajazul4 button{
+}
+#cajaneg3 button{
+	position: relative;
+	left: 5px;
+  	top: 0px;
+  	bottom: 20px;
+  	right: 0px;
+}
+#cajazul4 button{
 	background-color:#00a99d;
 	height: 45px;
-	width: 140px;
+	width: 105px;
 	border: none;
 	border-radius: 5px;
 	color: #d5e0df;
@@ -374,6 +405,7 @@ justify-content: left;
 	font-family: 'Poppins', sans-serif;
 	text-align: center;
 }
+
  p{
 	 color: #747474;
 	  font-size: 12px;
@@ -382,11 +414,14 @@ justify-content: left;
 	 padding: 0px 10px 0px 10px;
 }
 h3{
-	padding: 50px 0px 20px 0px;	 text-align: center;
+	padding: 50px 0px 20px 0px;	 
 	color: #535353; font-size: 26px; 
 	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+
 }
 h4{
+	padding: 0px 45px 0px 45px;
 	text-align: center;
 	color: #606060; font-size: 16px; 
 	font-family: 'Poppins', sans-serif;
@@ -398,9 +433,9 @@ h5{
 	text-align: center;
 }
 h6{
-	color: #e4e4e4;	font-size: 12px;
+	padding: 15px 60px 15px 20px;
+	color: #e4e4e4;	font-size: 16px;
 	font-family: 'Poppins', sans-serif;
-	text-align: center;
 }
 /*... ID de esme...*/
 /*... ID de esme...*/
