@@ -217,52 +217,81 @@ background-color: #8a8a8a;
     text-align: left;
 }
 /*--Seccion 3 Final--*/
-/*--Seccion 5 Inicio--*/
-.rotate180 {
-    -webkit-transform:rotate(180deg);
-    -moz-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    -o-transform: rotate(180deg);
-    transform: rotate(180deg);
+/*--Seccion 6 Inicio--*/
+.Sample-Works{
+     float: left;
+     width: 100%;
+     padding: 3rem 0;
+     background-color: #f9f9f9;
 }
-
-/*--Seccion 5 Final--*/
-/*seccion 6*/
-.img-fuid{
-    padding-right: 5px;
+.btn-green{
+     background-color: #00a99d;
+     margin: 30px 0;
+     color: #fff;
+     font-weight: bolder;
+     text-transform: uppercase;
 }
-nav ul h1{
-	padding-left: 540px;
-}
-nav ul p{
-padding-left: 375px;
-color: #cdcdcd;
-}
-
-.team-text{
-    float: left;
-    width: 100%;
-    padding: 4rem 0;
-    background-color: #00a99d;
-    position: relative;
-}
-.tex-green{
+.btn-green:hover{
+    background-color: transparent;
+    margin: 30px 0;
     color: #00a99d;
+    font-weight: bolder;
+    text-transform: uppercase;
+    border:1px solid #00a99d;
 }
-.tex-dark{
-    color: #aaaaaa;
-    font-weight: normal;
-}
-.team-text p{
-    color: #fff;
-    font-weight: bold;
-    font-size: 15px;
-    padding: 1rem 0 0 0;
-}
-
-.clientes{
-    float: left;
+.overlay-container{
+    position: relative;
     width: 100%;
-    background-color: #383838;
-    padding: 3rem 0;
+}
+.CN{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border-radius: 4px;
+}  
+.overlay-middle{
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 51%;
+    left: 51%;
+    transform: translate(-51%, -51%);
+    -ms-transform: translate(-51%, -51%);
+    text-align: center;
+    padding: 20px 0 0 0;
+    border-radius: 4px;
+}  
+.overlay-container:hover .CN{
+    background-color: #00a99d;
+}  
+.overlay-container:hover .overlay-middle{
+    opacity: 1;
+    background-color: #00a99d;
+}
+.overlay-text{
+    color: #e4e4e4;
+    font-size: 12px;
+}
+.overlay-text p{
+    margin: 0;
+    padding: 15px 0 0 0;
+}
+.p-11{
+    padding: 1px;
+}
+.Titulo-Central{
+    font-size: 26px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+}
+.Texto-Secundario{
+    color: #8a8a8a;
+    text-align: center;
 }
