@@ -295,10 +295,35 @@ background-color: #8a8a8a;
     color: #8a8a8a;
     text-align: center;
 }
+
+/* seccion 9 */
+.frase{
+  padding-top: 20px;
+  padding-block-end: 50px;
+}
+
+.clientes{
+    float: left;
+    width: 100%;
+    background-color: #383838;
+    padding: 3rem 0;
+}
+.imagenlateral1 {
+  padding-top: 30px;
+  padding-left: 100px;
+  padding-right: 30px;
+}
+.imagenlateral2 {
+  padding-top: 30px;
+  padding-left: 30px;
+}
 /* seccion 11*/
 .footer {
   font-family: Open-Sans-Regular; }
 
+.logofooter {
+  padding-top: 50px;
+}
   .footer .footer-inner {
     background: #333333;
     text-align: center;
@@ -425,4 +450,8 @@ background-color: #8a8a8a;
 .rombo .iconocentro{
     transform: translateY(-50%) rotate(315deg);
     border-radius: 3px;
+    padding-right: 23px;
+    padding-top: 20px;
   }
+
+
