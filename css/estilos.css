@@ -13,7 +13,7 @@ background-color: #8a8a8a;
 
 /*seccion 1 barra de navegacion*/
 #primeracagada {
-  background-color: #ffffff;
+  background-color: #f9f9f9;
     border-bottom: 1px solid #dedede;
     float: left;
     width: 100%;
@@ -53,7 +53,7 @@ background-color: #8a8a8a;
 
 /*seccion 1 parte blanca*/
 .what-blanco{
-  background-color: #ffffff;
+  background-color: #f9f9f9;
     float: left;
     width: 100%;
     padding: 2rem 0;
@@ -194,6 +194,7 @@ background-color: #8a8a8a;
 
 /*--Seccion 3 Inicio--*/
 .Apps{
+  background-color: #f9f9f9 ;
     float: left;
     width: 100%;
     padding: 3rem 0;
