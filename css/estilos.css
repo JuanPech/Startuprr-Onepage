@@ -354,18 +354,18 @@ background-color: #8a8a8a;
   text-align: center;
 } 
 
-.contact-form {
+.contactos {
   padding: 60px 0;
  }
 
-  .contact-form .form-inner {
+  .contactos .cuadrotextos {
     width: 30%;
     padding: 20px;
     border: 1px solid #aaaaaa;
     border-radius: 4px;
     background: #f6f6f6; }
 
-    .contact-form .form-inner .form-elements input[type=text] {
+    .contactos .cuadrotextos .textoseccion11 input[type=text] {
       margin: 10px 0;
       width: 100%;
       padding: 14px;
@@ -374,7 +374,7 @@ background-color: #8a8a8a;
       border-radius: 4px;
       background: #f6f6f6; }
 
-    .contact-form .form-inner .form-elements textarea {
+    .contactos .cuadrotextos .textoseccion11 textarea {
       margin: 14px 0;
       width: 100%;
       padding: 10px;
@@ -386,16 +386,16 @@ background-color: #8a8a8a;
       font-family: Open-Sans-Regular;
       background: #f6f6f6; }
 
-    .contact-form .form-inner a {
+    .contactos .cuadrotextos a {
       width: 100%;
       display: block; }
     @media screen and (max-width: 992px) {
 
-      .contact-form .form-inner {
+      .contactos .cuadrotextos {
         width: 50%; } }
     @media screen and (max-width: 767px) {
 
-      .contact-form .form-inner {
+      .contactos .cuadrotextos {
         width: 100%; } }
 
 .submit-message{
