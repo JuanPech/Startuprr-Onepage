@@ -1,10 +1,10 @@
 /*seccion 1*/
-#header img {
+#header-logo img {
   margin: 3% 0px 3% 15%;
   width: 40%;
   height: auto;
 }
-#header {
+#header-logo {
 background-color: #8a8a8a;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -13,16 +13,17 @@ background-color: #8a8a8a;
 
 /*seccion 1 barra de navegacion*/
 #primeracagada {
+  background-color: #ffffff;
     border-bottom: 1px solid #dedede;
     float: left;
     width: 100%;
     padding-bottom: 20px;
 }
-.logo {
+.logo-star {
     float: left;
     padding-top: 18px;
 }
-.menu {
+.menu-barra {
     float: right;
     clear: right;
     font-size: 14px;
@@ -32,16 +33,16 @@ background-color: #8a8a8a;
     line-height: 1.5;
     padding-top: 30px;
 }
-.menu ul li {
+.menu-barra ul li {
     display: inline-block;
     list-style: none;
     padding: 0 12px;
 }
-.menu ul li a {
+.menu-barra ul li a {
     text-decoration: none;
     color: #606060;
 }
-.menu ul li a:hover {
+.menu-barra ul li a:hover {
     width: 103px;
     border-radius: 4px;
     background-color: #00a99d;
@@ -51,12 +52,13 @@ background-color: #8a8a8a;
 /*seccion 1 barra de navegacion final*/
 
 /*seccion 1 parte blanca*/
-.offer{
+.what-blanco{
+  background-color: #ffffff;
     float: left;
     width: 100%;
     padding: 2rem 0;
 }
-.top-title{
+.titulo-what{
     font-size: 26px;
     font-weight: bolder;
     text-transform: uppercase;
@@ -64,19 +66,26 @@ background-color: #8a8a8a;
     margin: 0;
     color: #383838;
 }
-.top-title2{
-        font-size: 26px;
-    font-weight: bolder;
-    text-transform: uppercase;
-    text-align: center;
-    margin: 0;
-    color: #ffffff;
-}
-.under-title{
+.titulo-parrafo{
     color: #8a8a8a;
     text-align: center;
 }
-.offer-round{
+.circulos-gris{
+    padding: 2rem 0;
+    text-align: center;
+}
+.circulos-gris .title{
+    color: #606060;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    
+}
+.circulos-gris .paragraph{
+    color: #606060;
+    font-size: 14px;    
+}
+.iconos-3{
     width: 100px;
     height: 100px;
     text-align: center;
@@ -85,45 +94,40 @@ background-color: #8a8a8a;
     margin: 1.5rem auto;
 }
 
-.offer-round:hover{
+.iconos-3:hover{
     background-color: #00a99d;
     cursor: pointer;
 }
-.item{
-    padding: 2rem 0;
-    text-align: center;
-}
-.offer-round span{
+.iconos-3 span{
     color: #e4e4e4;
     line-height: 3.2;
 }
-.item .title{
-    color: #606060;
-    font-size: 14px;
-    text-transform: uppercase;
-    font-weight: bolder;
-    
-}
-.item .paragraph{
-    color: #606060;
-    font-size: 14px;    
-}
-.btn-readmore{
+.botom-read{
+  background-color: #ffffff;
     border: 1px solid #e2e2e2;
+    border-radius: 6px;
     color: #a4a4a4;
     font-size: 10px;
     padding: 9px 18px;
     text-transform: uppercase;
 }
-.btn-readmore:hover{
+.botom-read:hover{
     border: 1px solid #00a99d;
-    color: #fff;
+    color: #ffffff;
     background-color: #00a99d;
 }
 
 /*seccion 1 parte blanca final*/
 /*seccion 2 parte gris*/
 
+.top-title2{
+        font-size: 26px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    color: #ffffff;
+}
 .feature{
     float: left;
     width: 100%;
