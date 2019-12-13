@@ -302,6 +302,11 @@ background-color: #8a8a8a;
 }
 
 /* seccion 9 */
+.espacio {
+background-color: #f9f9f9;
+font-size: 0.1px;
+}
+
 .frase{
   padding-top: 20px;
   padding-block-end: 50px;
