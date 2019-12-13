@@ -1,6 +1,6 @@
 /*seccion 1*/
 #header-logo img {
-  margin: 3% 0px 3% 15%;
+  margin: 4% 0px 3% 10%;
   width: 40%;
   height: auto;
 }
@@ -59,7 +59,7 @@ background-color: #8a8a8a;
     padding: 2rem 0;
 }
 .titulo-what{
-    font-size: 26px;
+    font-size: 20px;
     font-weight: bolder;
     text-transform: uppercase;
     text-align: center;
@@ -121,7 +121,7 @@ background-color: #8a8a8a;
 /*seccion 2 parte gris*/
 
 .top-title2{
-        font-size: 26px;
+        font-size: 20px;
     font-weight: bolder;
     text-transform: uppercase;
     text-align: center;
@@ -222,6 +222,112 @@ background-color: #8a8a8a;
     text-align: left;
 }
 /*--Seccion 3 Final--*/
+/*seccion 4 circulos*/
+.seccion-4{
+    float: left;
+    width: 100%;
+    padding: 3rem 0 0 0;
+    background-color: #383838;
+    position: relative;
+}
+.angle-90{
+    position: absolute;
+    left:50%;
+    top:-20px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+}
+.titulo-3{
+        font-size: 20px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    color: #ffffff;
+}
+.puntosiz{
+  padding-left: 90%;
+}
+.puntosd{
+  padding-left: 4%;
+}
+/* Circle Progress */
+ .progress-text{
+     font-size: 14px;
+     color: #8a8a8a;
+     font-weight: bolder;
+     text-transform: uppercase;
+     text-align: center;
+     padding-bottom: 2.5rem;
+ }
+.progress-circle {
+    font-size: 20px;
+    margin: 20px auto;
+    position: relative;
+    padding: 0;
+    width:130px;
+    height: 130px;
+    background-color: #F2E9E1; 
+    border-radius: 50%;
+    line-height:130px;
+ }
+ .progress-circle:after{
+     border: none;
+     position: absolute;
+     top: 5px;
+     left: 5px;
+     text-align: center;
+     display: block;
+     border-radius: 50%;
+     width: 120px;
+     height: 120px;
+     background-color: #383838;
+     content: " ";
+ }
+ /* Text inside the control */
+ .progress-circle span {
+     position: absolute;
+     line-height:130px;
+     width:130px;
+     text-align: center;
+     display: block;
+     color: #00a99d;
+     z-index: 2;
+ }
+
+ .progress-circle.over50 .left-half-clipper {
+    clip: rect(auto,auto,auto,auto);
+ }
+ .value-bar {
+    position: absolute;
+    clip: rect(0, 65px,130px, 0);
+    width:130px;
+    height:130px;
+    border-radius: 50%;
+    border: 10px solid #00a99d; 
+    box-sizing: border-box; 
+ }
+ .progress-circle.over50 .first50-bar {
+    position: absolute;
+    clip: rect(0,130px,130px, 65px);
+    background-color: #00a99d;
+    border-radius: 50%;
+    width:130px;
+    height:130px;
+ }
+ /* Progress bar rotation position */
+ .progress-circle:not(.over50) .first50-bar{ display: none; }
+ .progress-circle.p50 .value-bar { transform: rotate(180deg); }
+ .progress-circle.p68 .value-bar { transform: rotate(245deg); }
+ .progress-circle.p75 .value-bar { transform: rotate(270deg); }
+ .progress-circle.p83 .value-bar { transform: rotate(299deg); }
+ .progress-circle.p92 .value-bar { transform: rotate(331deg); }
+ .progress-circle.p100 .value-bar { transform: rotate(360deg); }
+/*seccion 4 final*/
+
 /*--Seccion 6 Inicio--*/
 .Sample-Works{
      float: left;
