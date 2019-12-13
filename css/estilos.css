@@ -120,15 +120,7 @@ background-color: #8a8a8a;
 /*seccion 1 parte blanca final*/
 /*seccion 2 parte gris*/
 
-.top-title2{
-        font-size: 20px;
-    font-weight: bolder;
-    text-transform: uppercase;
-    text-align: center;
-    margin: 0;
-    color: #ffffff;
-}
-.feature{
+.seccion-2{
     float: left;
     width: 100%;
     padding: 3rem 0 0 0;
@@ -154,6 +146,14 @@ background-color: #8a8a8a;
     text-align: center;
     padding: 8px 0;
     border-radius: 4px;
+}
+.top-title2{
+        font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+     font-weight: bolder;
+   margin: 0;
+    color: #ffffff;
 }
 
 .offer-rounds{
@@ -193,7 +193,7 @@ background-color: #8a8a8a;
 /*seccion 2 parte gris final*/
 
 /*--Seccion 3 Inicio--*/
-.Apps{
+.seccion-3{
   background-color: #f9f9f9 ;
     float: left;
     width: 100%;
